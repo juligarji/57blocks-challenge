@@ -32,7 +32,12 @@ Was built using `react`, `typescript`, `scss` with an atomic design architecture
   - To run the tests use `npm run test`.
 - Will be available in the url `http://localhost:5173/`.
 
+H
+
 ## Note
+Here is a video of the app running:
+https://drive.google.com/file/d/1lAuDeHakOPVbq7DAoP-IvDG2EkwAW2VZ/view?usp=sharing
+
 The test user that you can use is:
 ```
  email:
