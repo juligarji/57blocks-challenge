@@ -1,0 +1,32 @@
+
+@import '../../../mixins';
+
+.MuiToolbar-root {
+  background-color: white;
+  color: black;
+  border-bottom: solid 2px 2px black;
+  box-shadow: 2px 2px black;
+  font-weight: bold !important;
+
+  & .MuiButtonBase-root {
+    @include button();
+    border-radius: 0;
+  }
+}
+
+.MuiDrawer-root {
+  & .MuiButtonBase-root {
+    background-color: white;
+    border-radius: 0;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: black;
+
+    &:hover {
+      background-color: #f8fe1e;
+    }
+  }
+  & .MuiPaper-root {
+    border-right: 2px solid black;
+  }
+}

@@ -1,0 +1,25 @@
+@keyframes l1 {to{transform: rotate(.5turn)}}
+
+.loader {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  & .spinner {
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 30px solid;
+    border-color: white #0000;
+    animation: l1 1s infinite;
+  }
+}

@@ -1,0 +1,22 @@
+
+body {
+  background-color: white;
+}
+
+.shadow {
+  box-shadow: 3px 3px rgba(0, 0, 0) !important;
+  border: black solid 2px;
+}
+
+.button {
+  background-color: #bb50ff !important;
+  box-shadow: 0px 3px rgba(0, 0, 0) !important;
+  color: white !important;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}

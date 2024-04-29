@@ -1,0 +1,26 @@
+.MuiCard-root {
+  position: relative;
+
+  & .MuiCardContent-root {
+
+    & .star-container {
+      position: absolute;
+      top: -5px;
+      left: 0px;
+      & .MuiSvgIcon-root {
+        width: 100px;
+        height: 100px;
+        color: #e33939;
+      }
+      & span {
+        position: absolute;
+        color: white;
+        left: 24px;
+        top: 35px;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 0px 0px 2px black;
+      }
+    }
+  }
+}

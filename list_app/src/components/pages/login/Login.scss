@@ -1,0 +1,13 @@
+@import '../../../mixins';
+
+.MuiContainer-root {
+  & .MuiInputBase-input {
+    border: solid black 2px;
+  }
+  & .MuiButtonBase-root {
+    @include button();
+  }
+  & .MuiAvatar-root {
+    @include button();
+  }
+}
